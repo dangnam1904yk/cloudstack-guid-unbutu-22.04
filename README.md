@@ -47,7 +47,7 @@ Install chrony.
 ```apt-get install chrony```
 #### 4. Add DEB package repository
 Type:<br>
-```nano/etc/apt/sources.list.d/cloudstack.list```
+```nano /etc/apt/sources.list.d/cloudstack.list```
 <br>
 write :<br> `deb http://download.cloudstack.org/ubuntu focal 4.17`
 <br>
