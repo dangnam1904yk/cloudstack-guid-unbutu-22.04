@@ -154,3 +154,14 @@ tail -f /var/log/cloudstack/management/management-server.log
 
 ```
 After management server is UP, proceed to http://192.168.10.33(i.e. the cloudbr0-IP):8080/client and log in using the default credentials - username admin and password password.
+
+##### 14. Enable XRDP
+```yaml
+apt update
+apt install xfce4 xfce4-goodies -y
+apt install xrdp -y
+nano /etc/xrdp/xrdp.ini
+systemctl restart xrdp
+systemctl status xrdp
+
+```
